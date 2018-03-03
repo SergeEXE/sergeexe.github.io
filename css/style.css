@@ -1,0 +1,59 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.text-muted {
+    color: #777;
+}
+
+#skills1 {
+	background-color: #9BF0C6
+}
+
+#skills2 {
+	background-color: #A39BF0;
+}
+
+h2::after {  /* This is the underline */
+	display: block;
+	content: "";
+	height: 2px;
+	width: 150px;
+	background: #E91C1C;
+	margin: 5px auto 40px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
+
+h2.sub::after {  /* This is the underline */
+	display: block;
+	content: "";
+	height: 2px;
+	width: 100px;
+	background: #E91C1C;
+	margin: 5px auto 40px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
+
+#portfolio {
+	background-color: #fff;
+}
