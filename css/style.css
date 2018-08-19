@@ -3,8 +3,9 @@ html {
 }
 
 body {
-	
+	background-color: #667ca0;
 }
+
 
 section h2.section-heading {
     margin-top: 0;
@@ -22,16 +23,24 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-.text-muted {
-    color: #777;
+
+
+.jumbotron {
+	background-image: url('../background.jpg');
+	opacity: 0.3;
+}
+
+.button{
+	border-radius: 50%;
 }
 
 #skills1 {
-	background-color: #9BF0C6
+	background-color: #ffffff;
 }
 
 #skills2 {
-	background-color: #A39BF0;
+	margin-top: 3%;
+	background-color: #e0e0e0;
 }
 
 h2::after {  /* This is the underline */
@@ -55,5 +64,6 @@ h2.sub::after {  /* This is the underline */
 }
 
 #portfolio {
+	margin-top: 3%;
 	background-color: #fff;
 }
